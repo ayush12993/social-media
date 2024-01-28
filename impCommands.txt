@@ -1,0 +1,6 @@
+/home/ayush/Documents/reactproject/snapgram
+
+
+
+ docker run --rm -it -v /home/ayush/Documents/reactproject/snapgram:/app -p 127.0.0.1:3000:3000 -h 0.0.0.0 snapgram:latest npm run dev
+ docker run --rm -it -v /home/ayush/Documents/reactproject/snapgram:/app  snapgram:latest npm run dev
